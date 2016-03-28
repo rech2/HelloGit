@@ -8,13 +8,14 @@ namespace HelloGit.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
 
         public ActionResult Index()
         {
-            return View();
+            Response.Write("<h1>This is Git-Hub</h1>");
         }
-
+        public ActionResult Index()
+        {
+            Response.Write("<h3>This is the changes</h3>")
+        }
     }
 }
